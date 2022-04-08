@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { Router, RouterModule } from '@angular/router';
+import { HomeModule } from '../module/home/home.module';
 
 
 
@@ -13,11 +14,12 @@ import { Router, RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
   ],
   exports:[   
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    
   ]
 })
 export class CoreModule { }

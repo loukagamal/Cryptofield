@@ -1,22 +1,30 @@
 <div class="container-fluid">
   <div class="nav-bar">
-
-    <div class="site-name">
+    <div class="site-name col-6 col-lg-2">
       <div class="logo-site">
         <img src="assets/image/logo.svg" alt="">
         {{sitename}}
       </div>
-
     </div>
-    <div class="nav-list" *ngFor="let item of listnavbar" id="navlist">
-      <a  [href]="'#'+item.id" class="nav-link">
-        {{item.nameItem}}</a>
-    </div>
-    <div class="but-grop">
+    <nav class="navbar navbar-expand-lg ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="nav-list mr-auto" *ngFor="let item of listnavbar">
+      <li class="nav-item active">
+        <a [href]="'#'+item.id" class="nav-link"> {{item.nameItem}}</a>
+      </li>
+    </ul>
+  
+  </div>
+    </nav>
+    
+    <div class="but-grop col-4 col-lg-3">
       <button class="but sign-up">Sign up</button>
       <button class="but login">Login</button>
-
     </div>
-  </div>
 
+  </div>
 </div>

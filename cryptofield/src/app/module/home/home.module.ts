@@ -7,23 +7,9 @@ import { HomeComponent } from './components/home/home.component';
 import { WorkProcessComponent } from './components/work-process/work-process.component';
 import { CoreModule } from 'src/app/core/core.module';
 
-
 @NgModule({
-  declarations: [
-    WhatIsIcoComponent,
-    HomeComponent,
-    WorkProcessComponent
-  ],
-  imports: [
-    CommonModule,
-    HomeRoutingModule,
-    CoreModule
-    
-  ],
-  exports:[
-       WhatIsIcoComponent,
-    HomeComponent,
-    WorkProcessComponent
-  ]
+  declarations: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent],
+  imports: [CommonModule, HomeRoutingModule,CoreModule],
+  exports: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent],
 })
-export class HomeModule { }
+export class HomeModule {}

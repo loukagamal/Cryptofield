@@ -1,15 +1,16 @@
 
 <div class="container-fluid">
     <div class="nav-bar row">
-        <div class="col-10">
+        <div class="col col-10">
             <app-navbar></app-navbar>
         </div>
     </div>
+
     <div class="home-card row ">
     <div class="col-1"></div>
-        <div class="content col-5" >
+        <div class="content col-7 col-lg-5" >
 
-       <div class="time col-5">
+       <div class="time col-lg-5">
             <div class="card" *ngFor="let item of time">
                 <div class="card-pody">
                     {{item.body}}
@@ -32,16 +33,21 @@
       
         </div>
 
-            <div class="img-home col-6">
+            <div class="img-home col-4 col-lg-6">
                 <img class="img-icon" src="assets/image/icon1.svg" alt="">
             </div>
     
     </div>
+
     <div class="what-is-ico">
         <app-what-is-ico></app-what-is-ico>
     </div>
 <div class="work-process">
     <app-work-process></app-work-process>
 </div>
+<div class="footer">
+    <app-footer></app-footer>
+</div>
+
    
 </div>
