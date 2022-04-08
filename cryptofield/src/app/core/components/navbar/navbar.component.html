@@ -1,21 +1,22 @@
 <div class="container-fluid">
-    <div class="nav-bar">
-      
-        <div class="site-name">
-            <div class="logo-site">
-            <img src="assets/image/logo.svg" alt="">
-                {{sitename}}
-            </div>
-            
-        </div>
-        <div class="nav-list " *ngFor="let item of listnavbar">
-            <a class="nav-link">{{item.nameItem}}</a>
-        </div>
-        <div class="but-grop">
-            <button class="but sign-up">Sign up</button>
-        <button class="but login">Login</button>
-         
-        </div>
+  <div class="nav-bar">
+
+    <div class="site-name">
+      <div class="logo-site">
+        <img src="assets/image/logo.svg" alt="">
+        {{sitename}}
+      </div>
+
     </div>
-    
+    <div class="nav-list" *ngFor="let item of listnavbar" id="navlist">
+      <a  [href]="'#'+item.id" class="nav-link">
+        {{item.nameItem}}</a>
+    </div>
+    <div class="but-grop">
+      <button class="but sign-up">Sign up</button>
+      <button class="but login">Login</button>
+
+    </div>
+  </div>
+
 </div>

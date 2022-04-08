@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
   sitename = 'Cryptofield';
   listnavbar = [
-    { nameItem: 'what is ico ', url: '' },
-    { nameItem: 'Token sale', url: '' },
-    { nameItem: 'Road map', url: '' },
-    { nameItem: 'Apps', url: '' },
-    { nameItem: 'Team', url: '' },
-    { nameItem: 'Faqs', url: '' },
-    { nameItem: 'contact', url: '' },
+    { nameItem: 'what is ico ', id: 'what' },
+    { nameItem: 'Token sale', id: 'token' },
+    { nameItem: 'Road map', id: '' },
+    { nameItem: 'Apps', id: 'Apps' },
+    { nameItem: 'Team', id: 'Team' },
+    { nameItem: 'Faqs', id: 'Faqs' },
+    { nameItem: 'contact', id: 'contact' },
   ];
 
   constructor() {}
