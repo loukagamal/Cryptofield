@@ -1,0 +1,43 @@
+
+<div class="container-fluid">
+    <div class="nav-bar row">
+        <div class="col-10">
+            <app-navbar></app-navbar>
+        </div>
+    </div>
+    <div class="home-card row ">
+    <div class="col-1"></div>
+        <div class="content col-5" >
+
+       <div class="time col-5">
+            <div class="card" *ngFor="let item of time">
+                <div class="card-pody">
+                    {{item.body}}
+                </div>
+                <div class="card-footer">
+                    {{item.footer}}
+                </div>
+            </div>
+       </div>
+
+        <div class="algorithmic  col-11">
+            Algorithmic & Blockchain
+            Solutions for Crypto
+            Investments
+        </div>
+        <div class="but-grop">
+            <button class="but buy-tokens">Buy Tokens</button>
+            <button class="but sign-up">Sign up to join</button>
+        </div>
+      
+        </div>
+
+            <div class="img-home col-5">
+                <img class="img-icon" src="assets/image/icon1.svg" alt="">
+            </div>
+        <div class="col-1"></div>
+    </div>
+    <div class="what-is-ico">
+        <app-what-is-ico></app-what-is-ico>
+    </div>
+</div>
