@@ -1,53 +1,48 @@
-
 <div class="container-fluid">
-    <div class="nav-bar row">
-        <div class="col col-10">
-            <app-navbar></app-navbar>
-        </div>
+  <div class="nav-bar row">
+    <div class="col col-12 col-lg-11 col-xl-10">
+      <app-navbar></app-navbar>
     </div>
-
-    <div class="home-card row ">
-    <div class="col-1"></div>
-        <div class="content col-7 col-lg-5" >
-
-       <div class="time col-lg-5">
-            <div class="card" *ngFor="let item of time">
-                <div class="card-pody">
-                    {{item.body}}
-                </div>
-                <div class="card-footer">
-                    {{item.footer}}
-                </div>
+  </div>
+  <div class="home-card row">
+    <div class="col-md-1"></div>
+    <div class="content col-7 col-lg-6">
+      <div class="row">
+        <div class="time col-md-12 col-lg-10 col-xl-6">
+          <div class="card" *ngFor="let item of time">
+            <div class="card-pody">
+              {{ item.body }}
             </div>
-       </div>
-
-        <div class="algorithmic  col-11">
-            Algorithmic & Blockchain
-            Solutions for Crypto
-            Investments
-        </div>
-        <div class="but-grop">
-            <button class="but buy-tokens">Buy Tokens</button>
-            <button class="but sign-up">Sign up to join</button>
-        </div>
-      
-        </div>
-
-            <div class="img-home col-4 col-lg-6">
-                <img class="img-icon" src="assets/image/icon1.svg" alt="">
+            <div class="card-footer">
+              {{ item.footer }}
             </div>
-    
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="algorithmic col-sm-12 col-12 col-md-12 col-lg-8">
+          Algorithmic & Blockchain Solutions for Crypto Investments
+        </div>
+      </div>
+
+      <div class="but-grop row">
+        <button class="but buy-tokens">Buy Tokens</button>
+        <button class="but sign-up">Sign up to join</button>
+      </div>
     </div>
 
-    <div class="what-is-ico">
-        <app-what-is-ico></app-what-is-ico>
+    <div class="img-home col-4 col-lg-5">
+      <img class="img-icon" src="assets/image/icon1.svg" alt="" />
     </div>
-<div class="work-process">
+  </div>
+
+  <div class="what-is-ico">
+    <app-what-is-ico></app-what-is-ico>
+  </div>
+  <div class="work-process">
     <app-work-process></app-work-process>
-</div>
-<div class="footer">
+  </div>
+  <div class="footer">
     <app-footer></app-footer>
-</div>
-
-   
+  </div>
 </div>

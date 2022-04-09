@@ -6,9 +6,10 @@ import { WhatIsIcoComponent } from './components/what-is-ico/what-is-ico.compone
 import { HomeComponent } from './components/home/home.component';
 import { WorkProcessComponent } from './components/work-process/work-process.component';
 import { CoreModule } from 'src/app/core/core.module';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
-  declarations: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent],
+  declarations: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent, ContactComponent],
   imports: [CommonModule, HomeRoutingModule,CoreModule],
   exports: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent],
 })

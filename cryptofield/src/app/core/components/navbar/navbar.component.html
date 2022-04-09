@@ -1,12 +1,14 @@
 <div class="container-fluid">
-  <div class="nav-bar">
-    <div class="site-name col-6 col-lg-2">
+  <div class="nav-bar col-12">
+    <div class="site-name col-md-4 col-xl-2 col-lg-3">
       <div class="logo-site">
         <img src="assets/image/logo.svg" alt="">
         {{sitename}}
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg ">
+      
+      
+    <nav class="navbar  navbar-expand-xl col-sm-auto col-md-8 col-lg-9 col-xl-10">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -17,14 +19,11 @@
         <a [href]="'#'+item.id" class="nav-link"> {{item.nameItem}}</a>
       </li>
     </ul>
+    <button class="but sign-up">Sign up</button>
+    <button class="but login">Login</button>
   
   </div>
+  
     </nav>
-    
-    <div class="but-grop col-4 col-lg-3">
-      <button class="but sign-up">Sign up</button>
-      <button class="but login">Login</button>
-    </div>
-
   </div>
 </div>
