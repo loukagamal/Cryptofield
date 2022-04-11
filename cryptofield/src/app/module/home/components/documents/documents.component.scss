@@ -42,9 +42,10 @@ height: 350px;
   align-items: center;
   flex-direction: column;
 
-  .image-team {
+  .image-file {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    cursor: pointer;
     .img {
       max-height: 100vh;
       max-width: 100%;

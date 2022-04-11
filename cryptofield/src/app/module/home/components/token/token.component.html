@@ -1,1 +1,48 @@
-<p>token works!</p>
+<div class="container-fluid" id="token">
+    <div class="row our-team">
+        <div class="title">Token</div>
+        <div class="token">Token Sale </div>
+    </div>
+    <div class="token-sale">
+       <div class="left-sction col-5">
+           <div class="row token-conent">
+            <div class="tokenitem" *ngFor="let tokenitem of token">
+                <div class="name"> {{tokenitem.name}}</div>
+                <div class="description"> {{tokenitem.time}}</div>
+            </div>
+           </div>
+       </div>
+        <div class="right-sction col-4">
+            <div class="time col-10">
+                <div class="card" *ngFor="let item of time">
+                    <div class="card-pody">
+                        {{ item.body }}
+                    </div>
+                    <div class="card-footer">
+                        {{ item.footer }}
+                    </div>
+                </div>
+                
+            </div>
+            <div class="line col-10">
+                <div class="pre-sale col-4">Pre- sale</div>
+                <div class="soft-cap col-4">Soft cap</div>
+                <div class="bonus col-4">Bonus</div>
+            </div>
+        <div class="progress col-10">
+            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                aria-valuemax="100"></div>
+        </div>
+        <div class="purchase ">
+            <button class="but token-now">Purchase Token Now</button>
+        </div>
+    <div class="payment col-10">
+        <div class="card-payment" *ngFor="let item of paymentlist">
+            <div class="image-payment">
+                <img class="img" src="{{item.paymenimgurl }}" alt="" />
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </div>

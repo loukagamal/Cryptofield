@@ -18,7 +18,7 @@ export class DocumentsComponent implements OnInit {
       fileurl: '',
     },
     {
-      fielname: 'Privacy PolicyVanessa Kirby',
+      fielname: 'Privacy Policy',
       fileimgurl: 'assets/image/pdf.svg',
       fileurl: '',
     },

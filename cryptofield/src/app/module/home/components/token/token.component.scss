@@ -1,0 +1,172 @@
+.container-fluid {
+  background: #10144f;
+}
+
+.title {
+  margin-top: 2rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.token {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+.token-sale {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.left-sction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.right-sction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../../../../assets/image/token.svg);
+  background-repeat: no-repeat;
+  background: cover;
+  background-position: center center;
+}
+.token-conent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tokenitem {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 312px;
+  height: 94px;
+  background: #10205c;
+  box-shadow: 0px 6px 24px rgba(9, 16, 56, 0.42);
+  border-radius: 4px;
+
+  .name {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  .description {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+  }
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .card {
+    width: 80px;
+    height: 85px;
+    .card-pody {
+      width: 80px;
+      height: 60px;
+      background: linear-gradient(90deg, #ec844d 8.12%, #eb535a 100%);
+      border-radius: 4px 4px 0px 0px;
+      font-family: "Circular Std";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+    }
+    .card-footer {
+      width: 80px;
+      height: 25px;
+      font-family: "Circular Std";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 15px;
+      text-transform: uppercase;
+      color: #080c49;
+      background: #ffffff;
+      border-radius: 0px 0px 4px;
+    }
+  }
+}
+.line {
+  margin-top: 3rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+.progress {
+  margin-top: 1rem;
+  .progress-bar {
+    background: #ec5b59;
+    border-radius: 4px 0px 0px 4px;
+  }
+}
+.purchase {
+  margin-top: 2rem;
+  .token-now {
+    width: 250px;
+    height: 56px;
+    background: linear-gradient(90deg, #ec844d 8.12%, #eb535a 100%);
+    border-radius: 4px;
+  }
+}
+.payment {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 2rem;
+  .image-payment{
+     .img{
+         height: 100%;
+         max-width: 100%
+         ;
+     } 
+  }
+}
+.token-now {
+  width: 250px;
+  height: 56px;
+  background: linear-gradient(90deg, #ec844d 8.12%, #eb535a 100%);
+  border-radius: 4px;
+}
+

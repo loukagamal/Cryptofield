@@ -1,0 +1,76 @@
+.apps {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.app {
+  .titel-1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  .titel-2 {
+    max-width: 319px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff;
+     margin-bottom: 1rem;
+  }
+  .paragraph-1 {
+    max-width: 543px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+     margin-bottom: 1rem;
+  }
+  .paragraph-2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.15em;
+    text-transform: capitalize;
+    color: #ffffff;
+     margin-bottom: 3rem;
+
+  }
+}
+
+.image-app {
+  .img {
+    max-width: 100%;
+  }
+}
+.download{
+    display: flex;
+    flex-direction: row;
+color: #FFFFFF;
+.download-app{
+    width: 160px;
+height: 56px;
+background: linear-gradient(90deg, #EC844D 8.12%, #EB535A 100%);
+border-radius: 4px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 101px;
+    cursor: pointer;
+    margin-inline-start: 1rem;
+}
+}
