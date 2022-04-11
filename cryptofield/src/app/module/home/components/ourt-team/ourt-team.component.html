@@ -1,0 +1,27 @@
+<div class="container-fluid" id="Team">
+  <div class="row our-team">
+    <div class="title">Our Team</div>
+    <div class="leadership">The Leadership Team</div>
+  </div>
+  <div class="team">
+    <div class="card-team" *ngFor="let item of teamList">
+      <div class="image-team">
+        <img class="img" src="{{ item.imgurl }}" alt="" />
+      </div>
+      <div class="content-team">
+        <div class="name-team">
+          <div class="name">{{ item.name }}</div>
+          <div class="jop-team">{{ item.jop }}</div>
+        </div>
+        <div class="description">{{ item.description }}</div>
+      </div>
+      <div class="social-icon">
+        <div class="linksocial" *ngFor="let linkitem of item.linksocial">
+          <a href="">
+            <i [class]="linkitem.namesocial" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
