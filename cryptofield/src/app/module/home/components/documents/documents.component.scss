@@ -1,0 +1,67 @@
+.container-fluid {
+  background: #10144f;
+}
+.title {
+    margin-top: 2rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.project {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+
+.documentation {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.card-file {
+width: 312px;
+height: 350px;
+  margin-inline-end: 1rem;
+  margin-bottom: 4rem;
+  background: #080c49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .image-team {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    .img {
+      max-height: 100vh;
+      max-width: 100%;
+    }
+
+    filter: drop-shadow(0px 2px 8px rgba(16, 20, 79, 0.42));
+  }
+ 
+  .name {
+      margin-top: 2rem;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+    }
+ 
+}

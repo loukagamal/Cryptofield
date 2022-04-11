@@ -8,9 +8,11 @@ import { WorkProcessComponent } from './components/work-process/work-process.com
 import { CoreModule } from 'src/app/core/core.module';
 import { ContactComponent } from './components/contact/contact.component';
 import { OurtTeamComponent } from './components/ourt-team/ourt-team.component';
+import { TokenComponent } from './components/token/token.component';
+import { DocumentsComponent } from './components/documents/documents.component';
 
 @NgModule({
-  declarations: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent, ContactComponent, OurtTeamComponent],
+  declarations: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent, ContactComponent, OurtTeamComponent, TokenComponent, DocumentsComponent],
   imports: [CommonModule, HomeRoutingModule,CoreModule],
   exports: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent,ContactComponent],
 })
