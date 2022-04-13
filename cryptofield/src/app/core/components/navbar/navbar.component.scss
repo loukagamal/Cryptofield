@@ -1,26 +1,22 @@
 .container-fluid {
   justify-content: space-between;
- 
-     margin: 0;
- 
+
+  margin: 0;
 }
 
 .nav-bar {
-
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
 }
-.navbar{
-  
+.navbar {
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
 }
 .nav-list {
- 
   display: flex;
-   justify-content: space-between;
+  justify-content: space-between;
   margin-top: 0;
   margin-bottom: 0;
   .nav-link {
@@ -33,37 +29,31 @@
     cursor: pointer;
   }
 }
-.navbar-collapse{
+.navbar-collapse {
   justify-content: space-between;
-  
 }
 .site-name {
   display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
   text-transform: capitalize;
   color: #ffffff;
-
 }
 
 .but-grop {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-
 }
-.but-sign-up{
-     border: solid 2px #ec844d;
+.but-sign-up {
+  border: solid 2px #ec844d;
 
   margin-inline-end: 2rem;
-
 }
-  .sign-up {
- width:160px;
+.sign-up {
+  width: 160px;
   height: 56px;
   background: linear-gradient(90deg, #ec844d 8.12%, #eb535a 100%);
   border-radius: 4px;
@@ -90,25 +80,32 @@
   color: #ffffff;
 }
 
-.fa-bars{
+.fa-bars {
   color: white;
 }
 
 @media only screen and (max-width: 1200px) {
-  .nav-list{
+  .nav-list {
     display: block;
     position: absolute;
     right: 0px;
     z-index: 1;
     justify-content: flex-end;
-   background: #10144F;
-    
+    background: #10144f;
+
     width: 250px;
-    li{
+    li {
       text-decoration: none;
-      list-style-type:none;
+      list-style-type: none;
     }
   }
+  .login {
+
+  width: 80px;
+  height: 56px;
+}
+.sign-up {
+  width: 80px;
+  height: 56px;}
 
 }
-
