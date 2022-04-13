@@ -11,10 +11,11 @@ import { OurtTeamComponent } from './components/ourt-team/ourt-team.component';
 import { TokenComponent } from './components/token/token.component';
 import { DocumentsComponent } from './components/documents/documents.component';
 import { AppsComponent } from './components/apps/apps.component';
+import { PartnersComponent } from './components/partners/partners.component';
 
 @NgModule({
-  declarations: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent, ContactComponent, OurtTeamComponent, TokenComponent, DocumentsComponent, AppsComponent],
+  declarations: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent, ContactComponent, OurtTeamComponent, TokenComponent, DocumentsComponent, AppsComponent, PartnersComponent],
   imports: [CommonModule, HomeRoutingModule,CoreModule],
-  exports: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent,ContactComponent],
+  exports: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent,ContactComponent,PartnersComponent],
 })
 export class HomeModule {}

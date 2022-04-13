@@ -1,10 +1,10 @@
 <div class="container-fluid" id="token">
-    <div class="row our-team">
+    <div class="row our-team  row ">
         <div class="title">Token</div>
         <div class="token">Token Sale </div>
     </div>
-    <div class="token-sale">
-       <div class="left-sction col-5">
+    <div class="token-sale row">
+       <div class="left-sction col-12 col-lg-5">
            <div class="row token-conent">
             <div class="tokenitem" *ngFor="let tokenitem of token">
                 <div class="name"> {{tokenitem.name}}</div>
@@ -12,7 +12,7 @@
             </div>
            </div>
        </div>
-        <div class="right-sction col-4">
+        <div class="right-sction col-12 col-lg-4 ">
             <div class="time col-10">
                 <div class="card" *ngFor="let item of time">
                     <div class="card-pody">

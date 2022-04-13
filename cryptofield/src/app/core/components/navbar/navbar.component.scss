@@ -8,16 +8,17 @@
 .nav-bar {
 
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-direction: row;
 }
 .navbar{
   
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   flex-direction: row;
 }
 .nav-list {
+ 
   display: flex;
    justify-content: space-between;
   margin-top: 0;
@@ -37,7 +38,6 @@
   
 }
 .site-name {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +47,7 @@
   font-size: 28px;
   text-transform: capitalize;
   color: #ffffff;
+
 }
 
 .but-grop {
@@ -62,7 +63,7 @@
 
 }
   .sign-up {
-  width: 160px;
+ width:160px;
   height: 56px;
   background: linear-gradient(90deg, #ec844d 8.12%, #eb535a 100%);
   border-radius: 4px;
@@ -88,8 +89,9 @@
   text-align: center;
   color: #ffffff;
 }
-.navbar-toggler{
-  color: aliceblue;
- 
+
+.fa-bars{
+  color: white;
 }
+
 
