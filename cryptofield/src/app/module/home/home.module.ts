@@ -12,9 +12,10 @@ import { TokenComponent } from './components/token/token.component';
 import { DocumentsComponent } from './components/documents/documents.component';
 import { AppsComponent } from './components/apps/apps.component';
 import { PartnersComponent } from './components/partners/partners.component';
+import { FaqsComponent } from './components/faqs/faqs.component';
 
 @NgModule({
-  declarations: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent, ContactComponent, OurtTeamComponent, TokenComponent, DocumentsComponent, AppsComponent, PartnersComponent],
+  declarations: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent, ContactComponent, OurtTeamComponent, TokenComponent, DocumentsComponent, AppsComponent, PartnersComponent, FaqsComponent],
   imports: [CommonModule, HomeRoutingModule,CoreModule],
   exports: [WhatIsIcoComponent, HomeComponent, WorkProcessComponent,ContactComponent,PartnersComponent],
 })
