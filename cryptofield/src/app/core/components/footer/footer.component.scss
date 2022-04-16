@@ -1,8 +1,28 @@
 .container-fluid {
-  background-image: url(.././../../../assets/image/footer.svg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  .updated {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 28px;
+    margin-top: 112px;
+  }
+  .footer-content  {
+    background-image: url(.././../../../assets/image/footer.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .subscribe {
@@ -29,12 +49,23 @@
   text-transform: capitalize;
   color: #ffffff;
 }
+
+.form-control {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #10144f;
+}
+
 .icon-img {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
 }
+
 .icon {
   margin-inline-end: 1rem;
   width: 40px;
